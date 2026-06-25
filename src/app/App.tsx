@@ -43,7 +43,7 @@ const NAV = [
 const ROLES = ["Full Stack Developer", "IT Specialist", "AI Automation Engineer", "Problem Solver", "Builder, Admin Assistant"];
 const PROFILE_IMAGE = "/profile/drix-portrait-new.png";
 const HERO_PROFILE_IMAGE = "/profile/drix-portrait-cutout.png";
-const CV_PATH = "/resume/Drix_Molina_CV.pdf";
+const CV_PATH = "/resume/Drix_Molina_Resume.pdf";
 const LINKEDIN_URL = "https://www.linkedin.com/in/drix-molina-a1ba62321/";
 
 const SKILLS_DATA: Record<string, { icon: ReactNode; skills: string[] }> = {
@@ -780,7 +780,7 @@ function HeroSection() {
               </motion.button>
               <motion.a
                 href={CV_PATH}
-                download="Drix_Molina_CV.pdf"
+                download="Drix_Molina_Resume.pdf"
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.97 }}
                 className="flex items-center gap-2 px-8 py-3.5 rounded-2xl text-sm font-semibold"
@@ -943,7 +943,7 @@ function AboutSection() {
                 </div>
               </div>
               <p className="leading-relaxed mb-4 text-sm" style={{ color: "rgba(var(--text-rgb),0.6)" }}>
-                I'm a Bachelor of Science in Information Technology student majoring in Web and Mobile Application Development. My tech journey started with curiosity and has evolved into a deep passion for building scalable, intelligent systems.
+               I'm a Bachelor of Science in Information Technology graduate majoring in Web and Mobile Application Development. My tech journey started with curiosity and has evolved into a deep passion for building scalable, intelligent systems.
               </p>
               <p className="leading-relaxed text-sm" style={{ color: "rgba(var(--text-rgb),0.6)" }}>
                 I combine full-stack engineering, network security, and AI automation — merging technical precision with creative problem-solving to deliver digital experiences that are fast, secure, and impactful.
@@ -1536,7 +1536,7 @@ function ResumePreviewModal({ open, onClose }: { open: boolean; onClose: () => v
                 <p className="text-xs" style={{ color: "rgba(var(--text-rgb),0.45)" }}>Preview resume before downloading</p>
               </div>
               <div className="flex gap-2">
-                <a href={CV_PATH} download="Drix_Molina_CV.pdf" className="px-3 py-2 rounded-xl text-xs font-jetbrains" style={{ background: "rgba(var(--accent-rgb),0.14)", color: "var(--accent)", border: "1px solid rgba(var(--accent-rgb),0.22)" }}>
+                <a href={CV_PATH} download="Drix_Molina_Resume.pdf" className="px-3 py-2 rounded-xl text-xs font-jetbrains" style={{ background: "rgba(var(--accent-rgb),0.14)", color: "var(--accent)", border: "1px solid rgba(var(--accent-rgb),0.22)" }}>
                   Download
                 </a>
                 <button onClick={onClose} className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: "rgba(var(--accent-rgb),0.12)", color: "var(--accent)" }}>
@@ -1579,7 +1579,7 @@ function ResumeSection() {
                 </motion.button>
                 <motion.a
                   href={CV_PATH}
-                  download="Drix_Molina_CV.pdf"
+                  download="Drix_Molina_Resume.pdf"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="w-full py-3 rounded-xl font-jetbrains font-semibold transition-all flex items-center justify-center gap-2"
