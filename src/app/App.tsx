@@ -40,8 +40,8 @@ const NAV = [
   { id: "contact",        label: "Contact",    icon: <Mail size={16} /> },
 ];
 
-const ROLES = ["Full Stack Developer", "IT Specialist", "AI Automation Engineer", "Problem Solver", "Builder"];
-const PROFILE_IMAGE = "/profile/drix-portrait.png";
+const ROLES = ["Full Stack Developer", "IT Specialist", "AI Automation Engineer", "Problem Solver", "Builder, Admin Assistant"];
+const PROFILE_IMAGE = "/profile/drix-portrait-new.png";
 const HERO_PROFILE_IMAGE = "/profile/drix-portrait-cutout.png";
 const CV_PATH = "/resume/Drix_Molina_CV.pdf";
 const LINKEDIN_URL = "https://www.linkedin.com/in/drix-molina-a1ba62321/";
@@ -943,7 +943,7 @@ function AboutSection() {
                 </div>
               </div>
               <p className="leading-relaxed mb-4 text-sm" style={{ color: "rgba(var(--text-rgb),0.6)" }}>
-                I'm a 4th-year Bachelor of Science in Information Technology student majoring in Web and Mobile Application Development. My tech journey started with curiosity and has evolved into a deep passion for building scalable, intelligent systems.
+                I'm a Bachelor of Science in Information Technology student majoring in Web and Mobile Application Development. My tech journey started with curiosity and has evolved into a deep passion for building scalable, intelligent systems.
               </p>
               <p className="leading-relaxed text-sm" style={{ color: "rgba(var(--text-rgb),0.6)" }}>
                 I combine full-stack engineering, network security, and AI automation — merging technical precision with creative problem-solving to deliver digital experiences that are fast, secure, and impactful.
